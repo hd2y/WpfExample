@@ -6,4 +6,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="images\apple.jpg" />
+    <None Remove="images\bullet.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\apple.jpg" />
+    <Resource Include="images\bullet.png" />
+  </ItemGroup>
+
 </Project>
